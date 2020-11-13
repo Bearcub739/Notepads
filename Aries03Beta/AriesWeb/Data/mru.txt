@@ -1,0 +1,14 @@
+http://www.google.fi/
+C:\
+file:///C:/
+C:
+http://sourceforge.net/projects/ariesproject
+http://sourceforge.net/projects/
+file:///D:/Comp%20122R.htm
+http://search.live.com/results.aspx
+file:///D:/DudeDesign.html
+www.google.fi
+http://www.google.com
+http://www.google.com/
+file:///C:/Users/DudeDesign/Documents/CloudToolkitNet_DOC.pdf
+file:///C:/Users/DudeDesign

@@ -1,0 +1,75 @@
+﻿Changes log - Aries Project
+***************************
+
+Changes in version 0.1.0 (Build 112)
+
+[BREAKING FEATURE] ARIES Main application
+[FEATURE] New Cloud TextBox control
+[FEATURE] New Cloud URLBox control
+[FEATURE] New Cloud RichTextBox control
+[FEATURE] Aries Web for surfing, modifying and saving websites
+[FEATURE] Aries Wise-Clear for cleaning the document from unwanted errors
+[FEATURE] New Cloud ToolstripRenderer
+[FEATURE] Web Helper class
+
+Changes in version 0.1.1 (Build 12)
+
+[FEATURE] Aries Web's web browser control is now an ActiveX control which provides more features
+[FIX] Vista dialogs temporarely disabled due to errors in XP and lower OS versions (Build 130 of v.1)
+[FIX] If the program can't find MRU list it will report an error (Build 130 of v.1)
+
+Changes in version 0.1.2  (Build 39)
+
+[FEATURE] Now all the images are opened in Aries Image (A simple image viewer)
+[FEATURE] Aries Web has now a working info dialog
+[FEATURE] When user enables the touch screen mode, toolstrips enlarge and the bigger icons appear. This is an important part of the touchscreen feature.
+[FEATURE] Images can now be saved through Aries Image. No GUI implementation yet, but the function exists (Build 45)
+[FIX] All the animations are disabled from the Cloud URLtextbox in Aries Web because they didn't work properly
+[FIX] When user changes the size of Aries Image form it redraws itself
+
+**Version 0.1.2.1 was created and announced to public but it wasn't released due to a mistake. All the data is included in version 0.1.3**
+
+Changes in version 0.1.3
+
+[FEATURE] Close button on top of the form (may be handy for touch screen users and when the program is in full screen)
+[FEATURE] Aries Image can now save image
+[FEATURE] Grayscale filter for Aries Image. The filter is created with unsafe code and pointers so it's extremely fast.
+[FEATURE] Aries Web now reflects the changes in Title and StatusBar texts of the website
+[FEATURE] Aries Web now has a second toolstrip on the bottom of the form which represents the status text label
+[FIX] Aries Web didn't open when the user clicked its icon in toolstrip1. There was no click -event handler associated with the button.
+[FIX] MRU list cleaned up
+
+Changes in version 0.3 (as in 12th April, 2009)
+
+[FEATURE] Tab pages are now used to open documents
+[FEATURE] Margin control for the editor.
+[FEATURE] Default Margin property in settings
+[FEATURE] Replace function for search feature
+[FEATURE] User's can now add an image to a document easily by selecting desired image file from the harddisk
+[FEATURE] Left side panel is now used for extra features.
+[FEATURE] Document text can be played aloud read by a woman's voice.
+[FEATURE] Text can be made bold, italic or underlined by clicking Control + B, Control + I or Control + U
+[FEATURE] The default margin of the document is set to 831px which is an approximate size of A4 paper. The red mark in margin control is located at 831px.
+[FEATURE] Aries Image has now rotation effects (Clockwise and CounterClockwise)
+[FEATURE] The image modified with Aries Image can be imported to a document currently edited
+[FEATURE] If the user opens html file it's either shown in Aries Web or edited in Aries text editor
+[FEATURE] The opened website can be opened and analyzed in the editor
+[FEATURE] The textdocument can be read to a wav file with a few format options
+[FEATURE] Aries Image now uses FreeImageNET project for some of the image effects.
+[FEATURE] Image's can now be resized in Aries Image through an ImageResizeDialog.
+[FEATURE] Aries Image can now be opened through the main window.
+[FEATURE] Supported image formats are now Bmp, Tga, Cut, Dds, Exr, G3, Gif, Hdr, Ico, Iff, J2k, Jng, Jp2, 
+Jpg, Koa, Mng, Pbm, Pcd, Pcx, Png, Ppm, Pgm, Psd, Ras, Sgi, Tiff, Wbmp, Xbm and Xpm
+
+[FEATURE] A simple text document without any special elements can now be exported to PDF using iTextSharp
+[FEATURE] Fullscreen mode is now properly implemented in the editor
+[FEATURE] Aries Player plays videos using QuickTime ActiveX plugin.
+[FEATURE] 70 media file types supported by Aries Player: vfw, ulw, swa, sml, smil, smi, sd2, qt, qcp, mqv, 
+mpv, mpm, mov, m75, m4p, m4b, m3url, m1s, m1a, m15, kar, gsm, fli, flc, dv, dif, cel, cdda, caf, bwf, amr,
+amc, ac3, mpg, avi, wav, snd, mpeg, mpa, mp4, mp2, midi, mid, m4v, m4a, m3u, m1v, au, aiff, aifc, aif, adts,
+aac, 3gpp, 3cp2, 3g2, sdv, rgb, mp3, 3gp, mac, pnt, pntg, pct, pic, pict, qti, qtif and smf
+[FEATURE] Aries Image uses floating tool windows so the image area is the whole form.
+[FEATURE] Aries Image has a tool window which shows the histogram of the image currently opened (realtime)
+
+[FIX] rtf files are now opened properly.
++ more fixes
